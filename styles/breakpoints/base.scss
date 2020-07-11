@@ -1,0 +1,154 @@
+body{
+    color: #333;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.header{
+    max-width: 100%;
+}
+
+.content{
+    margin-left: 50px;
+    max-width: calc(100% - 50px);
+}
+
+.main-cover{
+    margin-bottom: 30px;
+
+    & img{
+    // width: calc(100% - 50px);
+    width: 100%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px #1a2b3452;
+    }
+}
+
+.global-nav{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 100;
+    height: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    writing-mode: vertical-rl;
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+    }
+
+    &__item{
+
+        a{
+            text-decoration: none;
+            color: cornsilk;
+            background-color: gray;
+            border-radius: 0px 10px 10px 0;
+            margin-bottom: 30px;
+            padding: 10px 15px 10px 10px;
+
+        }
+    }
+
+}
+
+.card{
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px #e8e8e8;
+    border-radius: 10px 0 0 10px;
+}
+
+.sub-ti{
+    text-align: center;
+    border-bottom: 1px solid #333;
+    margin-bottom: 1em;
+}
+
+.about{
+    &-dis{
+
+        li{
+            list-style: none;
+        }
+        &-ti{
+            color: dimgray;
+            font-weight: bold;
+        }
+        &-data{
+            margin-bottom: 1.5em;
+        }
+    }
+}
+
+
+.skill{
+    &-dis{
+        margin-bottom: 1.5em;
+
+        &-ti{
+            font-size: 20px;
+            color: dimgray;
+        }
+        &-data{
+
+
+        }
+    }
+}
+
+.works{
+    &-items{
+
+    }
+}
+
+.card-last{
+    margin-bottom: 0px;
+    padding: 20px;
+    box-shadow: 0 0 10px #e8e8e8;
+    border-radius: 10px 0 0 0px;
+}
+
+.contact{
+    &-item{
+
+    }
+    &-copyright{
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+.pagetop{
+    & a{
+        color: #f4edd3;
+        text-decoration: none;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        padding: 30px 12px;
+        background-color: gray;
+        border-radius: 0 10px 0 0;
+    }
+}
+
+.footer{display: none;
+
+    &-log{
+        max-width: 100%;
+    }
+}
+
+.copyright{
+    display: none;
+    text-align: center;
+    font-size: 10px;
+}
