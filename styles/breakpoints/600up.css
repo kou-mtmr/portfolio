@@ -1,131 +1,16 @@
-.header {
-  display: block;
-  margin: 0 auto;
+.works-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.container {
-  width: 100%;
-}
-
-.content {
-  max-width: 1000px;
-  margin: 50px auto 0;
-  display: block;
-}
-
-.main-cover {
-  margin-bottom: 60px;
-}
-
-.main-cover img {
-  width: 100%;
-  height: auto;
-  border-radius: 30px;
-  -webkit-box-shadow: 0 0 10px #1a2b3452;
-  box-shadow: 0 0 10px #1a2b3452;
-}
-
-.global-nav {
-  height: 100vh;
-  width: auto;
-}
-
-.global-nav__item a {
-  border-radius: 0px 20px 20px 0;
-  margin-bottom: 50px;
-  padding: 20px 30px 20px 20px;
-}
-
-.card {
-  margin-bottom: 60px;
-  padding: 60px;
-  -webkit-box-shadow: 0 0 10px #e8e8e8;
-  box-shadow: 0 0 10px #e8e8e8;
-  border-radius: 30px;
-}
-
-.sub-ti {
-  font-size: 2em;
-  text-align: left;
-  border-bottom: 2px solid #333;
-  margin-bottom: 1em;
-}
-
-.about-dis {
-  width: auto;
-  height: auto;
-  margin-bottom: 2em;
-}
-
-.about-dis li {
-  margin-bottom: 2em;
-}
-
-.about-dis li h3 {
-  font-size: 20px;
-  color: gray;
-  vertical-align: top;
-}
-
-.about-dis-ti {
+.works-items-date {
   display: inline-block;
-  font-weight: bold;
+  width: 70%;
+}
+
+.works-items a {
+  display: inline-block;
   width: 20%;
-}
-
-.about-dis-data {
-  display: inline-block;
-  margin-bottom: 0;
-  width: 60%;
-}
-
-.skill-dis {
-  margin-bottom: 2em;
-}
-
-.skill-dis-ti {
-  font-size: 20px;
-  color: gray;
-  margin-bottom: 1em;
-}
-
-.card-last {
-  margin-bottom: 50px;
-  padding: 30px;
-  -webkit-box-shadow: 0 0 10px #e8e8e8;
-          box-shadow: 0 0 10px #e8e8e8;
-  border-radius: 30px;
-}
-
-.contact-copyright {
-  display: none;
-}
-
-.pagetop a {
-  color: #f4edd3;
-  text-decoration: none;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  padding: 45px 30px;
-  background-color: gray;
-  border-radius: 0 30px 0 0;
-}
-
-.footer {
-  display: block;
-  margin: 10px auto;
-}
-
-.footer-log {
-  display: block;
-  margin: 10px auto;
-  max-width: 100%;
-}
-
-.copyright {
-  display: block;
-  text-align: center;
-  font-size: 10px;
 }
 /*# sourceMappingURL=600up.css.map */

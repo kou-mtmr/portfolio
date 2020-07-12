@@ -1,5 +1,11 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #333;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
 .container {
@@ -60,6 +66,7 @@ body {
   border-radius: 0px 10px 10px 0;
   margin-bottom: 30px;
   padding: 10px 15px 10px 10px;
+  font-size: 15px;
 }
 
 .card {
@@ -74,15 +81,18 @@ body {
   text-align: center;
   border-bottom: 1px solid #333;
   margin-bottom: 1em;
+  font-size: 28px;
+}
+
+.item-ti {
+  color: #333333;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 0.3em;
 }
 
 .about-dis li {
   list-style: none;
-}
-
-.about-dis-ti {
-  color: dimgray;
-  font-weight: bold;
 }
 
 .about-dis-data {
@@ -95,6 +105,24 @@ body {
 
 .skill-dis-ti {
   font-size: 20px;
+  color: dimgray;
+}
+
+.works-items img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.works-items-data {
+  margin-bottom: 1em;
+}
+
+.works-items-data-dis {
+  margin-bottom: 0.5em;
+}
+
+.works-items-data-skl {
   color: dimgray;
 }
 

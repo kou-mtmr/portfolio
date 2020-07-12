@@ -6,6 +6,10 @@
     <title>KoheiMochimaru'sPortfolio</title>
     <link rel="stylesheet" href="styles/ress.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="container">
@@ -29,17 +33,16 @@
                     <div>
                     <h2 class="sub-ti">ABOUT</h2>
                     <ul class="about-dis">
-                        <li><h3 class="about-dis-ti">name：</h3>
+                        <li><h3 class="item-ti about-dis-ti">name：</h3>
                             <p class="about-dis-data">持丸紘平（mochimaru kohei）</p></li>
-                        <li><h3 class="about-dis-ti">age：</h3>
+                        <li><h3 class="item-ti about-dis-ti">age：</h3>
                             <p class="about-dis-data">22(1997/10/23)</p></li>
-                        <li>  <h3 class="about-dis-ti">contact：</h3>
-                            <p class="about-dis-data">kou.memr@gmail.com</p></li>
-                        <li><h3 class="about-dis-ti">about me：</h3>
-                            <p class="about-dis-data">現在独学でwebデザインとコーディングを学んでいます。</br>趣味は美味しいお酒と料理を楽しむことと、物作り全般。最近では今住んでいる部屋を作りました。</p></li>
-                            
-                            
-                          
+                        <li>  <h3 class="item-ti about-dis-ti">contact：</h3>
+                            <p class="about-dis-data">kou.mtmr@gmail.com</p></li>
+                        <li><h3 class="item-ti about-dis-ti">about me：</h3>
+                            <p class="about-dis-data">現在独学でwebデザインとコーディングを学んでいます。
+                            </br>趣味は美味しいお酒と料理を楽しむことと、物作り全般。最近では今住んでいる部屋を作りました。
+                        </br>本サイトトップ画像は、成城大学新設科目「データサイエンス科目」受講２期生のモデルとして、受験生用パンフレットの素材として撮影していただきました。</p></li>
                             
                     </ul>
                 </div>
@@ -48,22 +51,37 @@
                     <h2 class="sub-ti">SKILL</h2>
                     <div>
                         <div class="skill-dis">
-                            <h3 class="skill-dis-ti">HTML/CSS(SCSS)</h3>
+                            <h3 class="item-ti">HTML/CSS(SCSS)</h3>
                             <p class="skill-dis-data">学習期間1年半。基礎的な知識はあります。１年間オウンドメディア運営の長期インターンを経験し、CMSの編集もしていました。</p>
                         </div>
                         <div class="skill-dis">
-                            <h3 class="skill-dis-ti">JavaScript</h3>
+                            <h3 class="item-ti">JavaScript</h3>
                             <p class="skill-dis-data">学習期間２ヶ月。独学で学習中です。現在、生のJavaScriptを用いたモジュール作成を通して学習しています。</p>
                         </div>
                         <div class="skill-dis">
-                            <h3 class="skill-dis-ti">Photoshop</h3>
+                            <h3 class="item-ti">Photoshop</h3>
                             <p class="skill-dis-data">基本的な操作は覚えています。長期インターンではバナー画像やアイキャッチ画像などの画像作成をしています。</p>
                         </div>
                     </div>
                 </div>
                 <div id="works" class="card">
                     <h2 class="sub-ti">WORKS</h2>
-                    <div class="works-items"></div>
+                    <div class="works-items">
+                        <div class="works-items-data">
+                            <div class="works-items-data-dis">
+                                <h3 class="item-ti">ポートフォリオサイト作成</h3>
+                                <p>本ポートフォリオサイトのデザインとコーディングを行ないました。
+                                    <br>レスポンシブ対応も意識しましたが、特にスマホ画面でのデザインにこだわり、モバイルファーストなデザインとコーディングを意識しました。
+                                </p>
+                            </div>
+                            <div class="works-items-data-skl">
+                                <p>制作期間：１週間</p>
+                                <p>HTML/CSS(SCSS)/Photoshop</p>
+                            </div>
+
+                        </div>
+                        <a href="image/portfolio-image-sf.png" data-lightbox="group"><img src="image/ex-image.jpg" width="300"></a>
+                    </div>
                 </div>
                 <div id="contact" class="card-last">
                     <h2 class="sub-ti">CONTACT</h2>
