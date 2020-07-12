@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;
+    // scroll-behavior: smooth;
   }
 
 body{
@@ -9,6 +9,9 @@ body{
 
 .container{
     max-width: 100%;
+    & p{
+        margin-bottom: 0.5em;
+    }
 }
 
 .header{
